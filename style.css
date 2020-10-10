@@ -1,0 +1,109 @@
+body {
+	background-color: #D2AB99;
+	color: rgb(95, 45, 75);
+	font-weight: bolder;
+	font-family: Courier;
+	text-align: center;
+
+}
+
+h1 {
+color:#774C60;
+font-family: polya;
+font-weight: bolder;
+font-size: 35px ;
+}
+
+
+h2 {
+color:#B75D69;
+font-family:;
+font-weight:;
+font-size: 27px;
+}
+
+h3 {
+color:#B75D69; 
+}
+
+a {
+text-decoration: none;
+color: #3F88C5;
+font-weight: bolder;
+transition: color 0.3s ease;
+}
+
+a:hover {
+color:#2B50AA;
+}
+
+
+
+
+
+.container {
+margin: 10px auto;
+width: 800px;
+
+}
+
+@media (max-width: 800px) {
+	.container {
+	  width: 550px;
+	  }
+}
+@media (max-width: 500px) {
+	.container {
+	  width: 400px;
+	  }
+}
+
+.img-circle {
+border-radius: 40% ;
+}
+
+.shadow {
+box-shadow: 6px 6px 3px grey;
+}
+.boxshadow {
+	background: #F1BF98;
+	box-shadow: 5px 15px 15px rgba(0,0,0,0.3);
+	border-radius: 10px; 
+}
+
+
+.btn-blue {
+background-color: #2B50AA;
+color: white;
+padding: 5px 10px;
+border-radius: 40px;
+}
+
+.btn-blue:hover {
+	color: white;
+	background-color: black;
+}
+
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 50px;
+}
+
+.list-inline i {
+	font-size: 70px;
+	color: #2B50AA;
+}
+
+.list-inline i:hover {
+	color: white;
+	
+}
+#link p {
+	margin-bottom: 30px;
+}
